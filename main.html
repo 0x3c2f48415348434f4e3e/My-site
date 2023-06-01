@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="icon" type="image/x-icon" href="./favicon/1099aa7ab05d45899f29e0863c93da32.png"/>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app" class="config_div">
+        <h1 class="text">HELLO WORLD, I AM {{ username }}</h1>
+        <a href="https://github.com/0x3c2f48415348434f4e3e" target="_blank">
+            <div class="image">
+            <img v-bind:src="GitHub_img" v-bind:alt="Git_Hub_Image" width="64"/>
+            </div>
+        </a>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
