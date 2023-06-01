@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+    background-color: #333232;
+    color: white;
+}
+
+.text{
+    font-family:Ramabhadra, Courier, monospace;
+    font-weight:900;
+    font-size: 3em;
+}
+
+.config_div{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.image{
+    margin:25rem 0 0 0;
+}
