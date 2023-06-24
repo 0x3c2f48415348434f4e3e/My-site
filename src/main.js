@@ -2,7 +2,7 @@ const app = Vue.createApp({
     data:()=>{
         return{
             username:"HASHcon",
-            GitHub_img:"./icons/github.png",
+            GitHub_img:"../icons/github.png",
         };
     }
 })
